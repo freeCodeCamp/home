@@ -4,6 +4,7 @@
   "description": "The freeCodeCamp landing page",
   "main": "index.js",
   "scripts": {
+    "build": "gulp build",
     "develop": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,7 +29,9 @@
     "del": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^3.9.4",
     "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^4.0.0",
     "gulp-pug": "^4.0.1",
     "gulp-rename": "^1.3.0",
     "gulp-sass": "^4.0.1",

@@ -8,6 +8,8 @@ const gulpBabel = require("gulp-babel");
 const concat = require("gulp-concat");
 const browserSync = require("browser-sync").create();
 const gulpSass = require("gulp-sass");
+const htmlmin = require("gulp-htmlmin");
+const cleanCSS = require("gulp-clean-css");
 
 const gulpBuild = "build";
 const gulpDest = "public";
@@ -21,6 +23,7 @@ const views = () =>
         // Your options in here.
       })
     )
+    .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest(gulpDest));
 
 /** CSS */
@@ -28,6 +31,7 @@ const sass = () =>
   gulp
     .src("./src/sass/**/*.scss")
     .pipe(gulpSass().on("error", gulpSass.logError))
+    .pipe(cleanCSS({ compatibility: "ie8" }))
     .pipe(gulp.dest("./public/css"));
 
 /** JS */
@@ -61,12 +65,12 @@ const serve = done => {
 };
 
 /** Watchers */
-const watchJS = () =>
-  gulp.watch("./src/**/*.js", gulp.series(js, reload));
+const watchJS = () => gulp.watch("./src/**/*.js", gulp.series(js, reload));
 const watchPug = () => gulp.watch("./src/**/*.pug", gulp.series(views, reload));
 const watchSass = () =>
   gulp.watch("./src/sass/**/*.scss", gulp.series(sass, reload));
 
+const build = gulp.parallel(views, sass, js);
 
 /** Default */
 const dev = gulp.series(
@@ -77,4 +81,4 @@ const dev = gulp.series(
   gulp.parallel(watchJS, watchPug, watchSass)
 );
 
-module.exports = { default: dev };
+module.exports = { default: dev, build };
