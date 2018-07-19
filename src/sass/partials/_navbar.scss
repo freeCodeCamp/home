@@ -1,0 +1,45 @@
+nav.navbar {
+  min-height: 38px;
+  max-height: 38px;
+  background: $brand-primary;
+  padding: 0 10px;
+  border: none;
+  border-color: transparent;
+
+  .navbar-brand {
+    padding: 0;
+    height: 38px;
+  }
+
+  .nav > li > a {
+    padding: 0 15px;
+    color: #fff;
+
+    &:hover,
+    &:focus {
+      color: #fff;
+    }
+  }
+
+  .collapse .nav {
+    padding: 4px 0;
+  }
+
+  .navbar-toggle {
+    border-radius: 4px;
+    margin: 1px 0 0 0;
+    padding: 6px;
+    color: #fff;
+
+    &:hover,
+    &:focus {
+      background-color: #fff;
+      color: $brand-primary;
+    }
+  }
+
+  .navbar-collapse.collapse.in {
+    background-color: $brand-primary;
+    border-top: none;
+  }
+}

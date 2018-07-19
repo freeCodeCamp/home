@@ -1,0 +1,4 @@
+/learn https://learn.freecodecamp.org 200
+/learn/* https://learn.freecodecamp.org/:splat 200
+
+/* https://test-domain.freecodecamp.org/:splat 200

@@ -1,0 +1,38 @@
+{
+  "name": "@freecodecamp/home",
+  "version": "1.0.0",
+  "description": "The freeCodeCamp landing page",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "freeCodeCamp <team@freecodecamp.org>",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeCodeCamp/home.git"
+  },
+  "keywords": [
+    "freeCodeCamp"
+  ],
+  "bugs": {
+    "url": "https://github.com/freeCodeCamp/home/issues"
+  },
+  "homepage": "https://github.com/freeCodeCamp/home#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.24.5",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.3.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify-es": "^1.0.4"
+  }
+}

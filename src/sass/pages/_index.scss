@@ -1,0 +1,76 @@
+.fa {
+  margin-right: 5px;
+}
+
+.fa:hover {
+  text-decoration: none;
+}
+
+.btn-cta {
+  font-size: 40px;
+}
+
+.landing-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.signup-btn.btn {
+  background-color: #ffac33;
+  background-image: linear-gradient(#ffcc4d, #ffac33);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffcc4d,  endColorstr=#ffac33,  GradientType=0)";
+  border-color: #f1a02a;
+  color: #292f33 !important;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.signup-btn:hover, .signup-btn:focus {
+  background-color: #e99110;
+  background-image: linear-gradient(#ffcc4d, #e99110);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffcc4d,  endColorstr=#e99110,  GradientType=0)";
+  border-color: #ec8b11;
+  color: #292f33 !important;
+}
+.signup-btn:active {
+  background-color: #f2a330;
+  background-image: none;
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.landing-skill-icon {
+  color: $brand-primary;
+  font-size: 150px;
+}
+
+.custom-landing-skill-icon {
+  margin-top: -15px;
+  padding-bottom: 15px;
+}
+
+.font-awesome-padding {
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.testimonial-image {
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
+  color: $brand-primary;
+}
+
+.testimonial-copy {
+  text-align: center;
+  font-size: 18px !important;
+  margin-left: 20px;
+  margin-right: 20px;
+  @media (min-width: 991px) and (max-width: 1199px) {
+    height: 150px;
+  }
+  @media (min-width: 1200px) {
+    height: 100px;
+  }
+}
+
+.landing-heading {
+  font-size: 50px !important;
+}

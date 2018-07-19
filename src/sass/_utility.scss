@@ -1,0 +1,53 @@
+.img-center {
+  margin: 0 auto;
+}
+
+.negative-35 {
+  margin-top: -35px;
+}
+
+.large-p {
+  font-size: 24px;
+}
+
+.small-p {
+  font-size: 14px;
+}
+
+.big-break {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.black-text {
+  color: #333;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.default-border-radius {
+  border-radius: 5px;
+}
+
+.button-spacer {
+  padding: 5px 0;
+}
+
+.spacer {
+  padding: 15px 0 15px 0;
+}
+
+.big-spacer {
+  padding: 30px 0 30px 0;
+}
+
+.btn-no-shadow {
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow:    0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow:         0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.full-size {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+.btn {
+  font-weight: 400;
+  white-space: normal;
+  background: transparent;
+
+  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+.alert a {
+  text-decoration: underline;
+}
+
+.control-label {
+  font-weight: 400;
+}
+
+// make btn-default hover more visible
+.btn-default:active,
+.btn-default:hover {
+    background-color: $brand-primary;
+}
