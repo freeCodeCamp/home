@@ -1,4 +1,4 @@
-/learn https://learn.freecodecamp.org 200
-/learn/* https://learn.freecodecamp.org/:splat 200
+/learn https://unruffled-pike-10e3f3.netlify.com 200
+/learn/* https://unruffled-pike-10e3f3.netlify.com/:splat 200
 
-/* https://test-domain.freecodecamp.org/:splat 200
+/* https://api.freecodecamp.rocks/:splat 200
