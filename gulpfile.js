@@ -56,10 +56,11 @@ const reload = done => {
 
 const serve = done => {
   browserSync.init({
+    port: 4545,
+    open: false,
     server: {
-      baseDir: "./public"
-    },
-    open: false
+      baseDir: "./public",
+    }
   });
   done();
 };
