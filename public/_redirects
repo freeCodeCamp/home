@@ -3,6 +3,6 @@
 
 /welcome https://api.freecodecamp.rocks/welcome 200
 
-/signin https://api.freecodecamp.org/signin 200
+/signin https://api.freecodecamp.rocks/signin 200
 
 /* https://api.freecodecamp.rocks/:splat 200
