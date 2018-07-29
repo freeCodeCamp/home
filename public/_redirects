@@ -7,7 +7,10 @@
 # user determined client side (use of '/external/services')
 /settings https://api.freecodecamp.rocks/settings 200
 
-# user required for an API rendered page (jade/pug)
+# user required for an API
 /welcome https://api.freecodecamp.rocks/external/welcome 200
+/challenges/* https://api.freecodecamp.rocks/external/:splat 200
+/challenges https://api.freecodecamp.rocks/external/challenges 200
+
 
 /* https://api.freecodecamp.rocks/:splat 200
