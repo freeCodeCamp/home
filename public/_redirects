@@ -1,10 +1,13 @@
 /learn/* https://nervous-mestorf-4c68e0.netlify.com/:splat 200
 /learn https://nervous-mestorf-4c68e0.netlify.com 200
 
-
+# no user required
 /signin https://api.freecodecamp.rocks/signin 200
-/settings https://api.freecodecamp.rocks/external/settings 200
-/settings2 https://api.freecodecamp.rocks/settings 200
+
+# user determined client side (use of '/external/services')
+/settings https://api.freecodecamp.rocks/settings 200
+
+# user required for an API rendered page (jade/pug)
 /welcome https://api.freecodecamp.rocks/external/welcome 200
 
 /* https://api.freecodecamp.rocks/:splat 200
