@@ -4,6 +4,7 @@
 
 /signin https://api.freecodecamp.rocks/signin 200
 /settings https://api.freecodecamp.rocks/external/settings 200
+/settings2 https://api.freecodecamp.rocks/settings 200
 /welcome https://api.freecodecamp.rocks/external/welcome 200
 
 /* https://api.freecodecamp.rocks/:splat 200
