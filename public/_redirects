@@ -1,8 +1,9 @@
 /learn/* https://nervous-mestorf-4c68e0.netlify.com/:splat 200
 /learn https://nervous-mestorf-4c68e0.netlify.com 200
 
-/welcome https://api.freecodecamp.rocks/external/welcome 200
 
 /signin https://api.freecodecamp.rocks/signin 200
+/settings https://api.freecodecamp.rocks/external/settings 200
+/welcome https://api.freecodecamp.rocks/external/welcome 200
 
 /* https://api.freecodecamp.rocks/:splat 200
