@@ -1,4 +1,4 @@
-/learn/* https://nervous-mestorf-4c68e0.netlify.com/:splat 200
+/learn/* https://nervous-mestorf-4c68e0.netlify.com/learn/:splat 200
 /learn https://nervous-mestorf-4c68e0.netlify.com 200
 
 # no user required
@@ -9,7 +9,7 @@
 
 # user required for an API
 /welcome https://api.freecodecamp.rocks/external/welcome 200
-/challenges/* https://api.freecodecamp.rocks/external/:splat 200
+/challenges/* https://api.freecodecamp.rocks/external/challenges/:splat 200
 /challenges https://api.freecodecamp.rocks/external/challenges 200
 
 
