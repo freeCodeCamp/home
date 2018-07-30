@@ -1,5 +1,5 @@
-/learn / 200
-/learn/* /:splat 200
+/learn /learn 200
+/learn/* /learn/:splat 200
 
 
 # no user required
